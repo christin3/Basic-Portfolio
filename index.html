@@ -2,6 +2,15 @@
 <html>
 <head>
 <style>
+/* * selects everything to be applied*/
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
 body {margin:0;}
 
 ul {
@@ -10,26 +19,21 @@ ul {
     padding: 0px;
     overflow: hidden;
     background-color: #333;
-    position: left;
     top: 0;
     width: 100%;
 }
 
-li {
-    float: right;
+h1 {
+   
 }
 
 li a {
     display: block;
     color: white;
-    text-align: left;
     padding: 30px 40px 40px 15px;
-    text-decoration: none;
+    float: right;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
 
 .active {
     background-color: #4CAF50;
@@ -45,29 +49,38 @@ li a:hover:not(.active) {
 .div2 {
     width: 270px;
     height: 100px;
-    float: left;
     border: 1px solid black;
+    float: left; 
     margin: 100px;
 
 ;
 }
+.name {
+    color: white; 
+    font-size: 64px;
+    padding-left: 50px;
+}
 </style>
 </head>
+
 <body>
-
 <ul>
+<header>
 
+    
   	<li><a href="#contact">Contact </a></li>
     <li><a href="#portfolio">Portfolio </a></li>
     <li><a href="#about">About </a></li>
-   
+
+    <li class="name">Christine Baba</li>
+
 
   
 </ul>
-
+</header>
 
 <div class="div1">
-<p>Some text some text some text some text..</p></div>
+<p>Some text.</p></div>
 
 <div class="div2">
 <p> Side box.</p></div>
