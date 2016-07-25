@@ -13,6 +13,7 @@ body {
     background-image: url("../images/cork-wallet.png")
 
 
+
 }
 
 ul {
@@ -29,15 +30,39 @@ ul {
 }
 
 h1 {
+    margin-left: 45px;
+    font-size: 2em;
+    color: teal;
    
 }
 
+h2{ 
+ 
+
+}
+
+h3{
+    margin-left:20px;
+    text-align: justify;
+    margin-right: 20px;
+
+
+}
 li a {
     display: block;
     color: gray;
     padding: 30px 40px 40px 15px;
     float: right;
 }
+
+img{
+    margin-left:20px;
+    margin-right: 20px;
+
+
+}
+
+
 
 .div1 {
     width: 650px;
@@ -48,16 +73,18 @@ li a {
     margin-left: 100px;
     background-color: white;
     margin-top: 50px;
+    font-family: Georgia;
 }
 
 .div2 {
     width: 270px;
-    height: 100px;
+    height: 200px;
     border: 2px solid #ddd;
     float: left; 
-    margin: 15px;
+    margin: 60px;
     background-color: white;
     margin-top: 50px;
+    font-family: Georgia;
 }
 .name {
     color: white; 
@@ -68,5 +95,16 @@ li a {
     margin-left: 100px;
     text-align: center;
     padding-left: 0px;
+    font-family: Georgia;
 }
-</style> 
+.paragraph {
+    font-family: Times;
+
+
+}
+
+.im{   
+    margin-left:20px;
+    margin-right: 0px; 
+}
+</style> 
