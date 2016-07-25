@@ -24,9 +24,10 @@ ul {
     background-color: #ffffff;
     top: 0;
     width: 100%;
-    border-bottom: solid #ddd 5px;
+    border-bottom: solid gray 2px;
     height: 74px;
     margin-right: 100px;
+
 }
 
 h1 {
@@ -51,8 +52,11 @@ h3{
 li a {
     display: block;
     color: gray;
-    padding: 30px 40px 40px 15px;
+    padding: 30px 20px;
     float: right;
+  
+ 
+
 }
 
 img{
@@ -60,6 +64,11 @@ img{
     margin-right: 20px;
 
 
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -88,7 +97,7 @@ img{
 }
 .name {
     color: white; 
-    font-size: 64px;
+    font-size: 65px;
     padding-left: 30px;
     float: left;
     background-color: teal;
@@ -106,5 +115,9 @@ img{
 .im{   
     margin-left:20px;
     margin-right: 0px; 
+}
+
+.links{
+    margin-right: 360px;
 }
 </style> 
