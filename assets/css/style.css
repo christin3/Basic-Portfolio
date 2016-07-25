@@ -130,6 +130,7 @@ hr{
    height:60px;   /* Height of the footer */
    background:gray;
    text-align: center;
+   border-top: solid 5px teal;
 }
 
 </style> 
