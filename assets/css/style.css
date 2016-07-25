@@ -38,7 +38,9 @@ h1 {
 }
 
 h2{ 
- 
+    margin-left: 30px;
+    color: teal;
+    
 
 }
 
@@ -129,4 +131,5 @@ hr{
    background:gray;
    text-align: center;
 }
+
 </style> 
