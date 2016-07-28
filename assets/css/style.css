@@ -25,9 +25,8 @@ a{
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 18px;
-    margin-top: 0px;
     color:grey;
-    float:right
+    float:right;
 
 }
 
@@ -62,14 +61,14 @@ h3{
     margin-left:20px;
     text-align: justify;
     margin-right: 20px;
-    font-family: Georgia;
+    font-family: Times;
     font-size: 16px;
+    font-weight: normal;
 
 }
 
 img{
-    margin-left:20px;
-    margin-right: 20px;
+    margin-right: 10px;
 
 
 }
@@ -83,7 +82,7 @@ hr{
 
 .div1 {
     width: 650px;
-    height: 450px;
+    height: auto;
     float: left;
     border: 2px solid #ddd;
     background-color: white;
@@ -94,7 +93,7 @@ hr{
 
 .div2 {
     width: 270px;
-    height: 200px;
+    height: 190px;
     border: 2px solid #ddd;
     float: right;
 
@@ -126,7 +125,7 @@ hr{
    position:absolute;
    bottom:0;
    width: 1000px ;
-   height:60px;   /* Height of the footer */
+   height:60px;   
    background:gray;
    text-align: center;
    border-top: solid 5px #4aaaa5;
@@ -139,4 +138,27 @@ hr{
     margin-right:auto;
     width:960px;
 }
+
+.imgs {
+    margin: 16px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+.imgs:hover {
+    border: 1px solid #777;
+
+ 
+}
+
+.imgs img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    text-align: center;
+}
+
 </style>
