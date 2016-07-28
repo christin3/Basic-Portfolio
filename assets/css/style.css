@@ -141,13 +141,13 @@ hr{
 
 .imgs {
     margin: 16px;
-    border: 1px solid #ccc;
+    border: 1px dash #4aaaa5;;
     float: right;
     width: 180px;
 }
 
 .imgs:hover {
-    border: 1px solid #777;
+    border: 1px solid #4aaaa5;;
 
  
 }
