@@ -120,6 +120,11 @@ hr{
     margin-right: 0px;
 }
 
+.im:hover{
+	background-color: #4aaaa5;
+
+}
+
 
 #footer {
    position:absolute;
