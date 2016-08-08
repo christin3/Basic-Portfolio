@@ -1,37 +1,33 @@
 <style>
 /* * selects everything to be applied*/
-*{
+
+* {
     box-sizing: border-box;
 }
 
-
 body {
-
     background-image: url("../images/cork-wallet.png")
-
 }
 
-.nav{
+.nav {
     background-color: white;
     height: 5px;
     border-bottom: solid gray 3px;
     height: 51px;
-
 }
 
-
-a{
+a {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 18px;
-    color:grey;
-    float:right;
-
+    color: grey;
+    float: right;
 }
 
 
 /* visited link */
+
 a:visited {
     color: teal;
 }
@@ -40,45 +36,35 @@ a:hover {
     background-color: lightgray;
 }
 
-
-
 h1 {
     margin-left: 45px;
     font-size: 2em;
     color: #4aaaa5;
-
 }
 
-h2{
+h2 {
     margin-left: 30px;
     padding-bottom: 10px;
     color: #4aaaa5;
-
-
 }
 
-h3{
-    margin-left:20px;
+h3 {
+    margin-left: 20px;
     text-align: justify;
     margin-right: 20px;
     font-family: Times;
     font-size: 16px;
     font-weight: normal;
-
 }
 
-img{
+img {
     margin-right: 10px;
-
-
 }
 
-hr{
+hr {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-
 
 .div1 {
     width: 650px;
@@ -88,7 +74,6 @@ hr{
     background-color: white;
     margin-top: 50px;
     font-family: Georgia;
-
 }
 
 .div2 {
@@ -96,11 +81,11 @@ hr{
     height: 190px;
     border: 2px solid #ddd;
     float: right;
-
     background-color: white;
     margin-top: 50px;
     font-family: Georgia;
 }
+
 .name {
     color: white;
     font-size: 45px;
@@ -109,52 +94,47 @@ hr{
     margin-right: 300px;
     float: left;
 }
+
 .paragraph {
     font-family: Times;
-
-
 }
 
-.im{
-    margin-left:20px;
+.im {
+    margin-left: 20px;
     margin-right: 0px;
 }
 
-.im:hover{
-	background-color: #4aaaa5;
-
+.im:hover {
+    background-color: #4aaaa5;
 }
 
-
 #footer {
-   position:absolute;
-   bottom:0;
-   width: 1000px ;
-   height:60px;   
-   background:gray;
-   text-align: center;
-   border-top: solid 5px #4aaaa5;
-
-
+    position: absolute;
+    bottom: 0;
+    width: 1000px;
+    height: 60px;
+    background: gray;
+    text-align: center;
+    border-top: solid 5px #4aaaa5;
 }
 
 #wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
 
 .imgs {
     margin: 16px;
-    border: 1px dash #4aaaa5;;
+    border: 1px dash #4aaaa5;
+    ;
     float: right;
     width: 180px;
 }
 
 .imgs:hover {
-    border: 1px solid #4aaaa5;;
-
- 
+    border: 1px solid #4aaaa5;
+    ;
 }
 
 .imgs img {
